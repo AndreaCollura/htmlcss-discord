@@ -105,7 +105,6 @@ footer {
     padding: 7px 10px;
     color: var(--black-text);
     text-decoration: none;
-    background-color: var(--primary-color);
     border-radius: 15px;
     text-align: center;
     font-size: 0.8rem;
@@ -120,8 +119,6 @@ footer {
     display: inline-block;
     font-weight: 500;
 
-
-
 }
 
 .btn-bcontent {
@@ -132,10 +129,25 @@ footer {
     color: var(--primary-color);
     display: inline-block;
     font-weight: 500;
-
-
-
 }
+
+.btn-pcontent {
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: var(--purple-btn);
+    color: var(--primary-color);
+   
+}
+
+.bgcolor-btn-white{
+    background-color: var(--primary-color);
+}
+
+
+
+
 
 
 
@@ -144,6 +156,18 @@ footer {
 
 
 /* CONTAINER */
+
+.star-text{
+
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bigsect-textbox{
+    text-align: center;
+    max-width: 850px;
+}
 
 
 
@@ -187,6 +211,10 @@ footer {
 .text-box{
     max-width: 450px;
     padding: 50px;
+}
+
+.footer-box{
+
 }
 
 
@@ -235,10 +263,12 @@ section p{
 
 }
 
-.bigsect-textbox{
+h3{
     text-align: center;
-    max-width: 900px;
+    font-size: 1.5rem;
+    padding: 30px 50px;
 }
+
 
 
 
