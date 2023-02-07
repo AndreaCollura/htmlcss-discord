@@ -1,0 +1,172 @@
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Color styles */
+--blue-nav: #255EE9;
+--grey-bg: #F6F6F6;
+--black-footer: #23272A;
+--purple-btn: #7289DA;
+--primary-color: #FFFFFF;
+--black-text: #000000;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.grey-bg{
+    background-color: var(--grey-bg);
+}
+
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+
+header{
+    background-color: var(--blue-nav);
+}
+
+footer{
+    background-color: var(--black-footer);
+}
+
+
+
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.d-flex-content{
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 610px;
+   
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-nav{
+    padding-right: 40px;
+}
+
+.left{
+    width: 55%;
+}
+.right{
+    width: 45%;
+
+}
+.row-reverse{
+    flex-flow: row-reverse wrap;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.btn{
+    padding: 7px 10px;
+    color: var(--black-text);
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.btn-wcontent{
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+    font-size: 1.2rem;
+    display: inline-block;
+    font-weight: 500;
+    
+
+
+}
+.btn-bcontent{
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    background-color: var(--black-footer);
+    color: var(--primary-color);
+    display: inline-block;
+    font-weight: 500;
+    
+    
+
+}
+
+.padding-nav{
+    padding-top: 15px;
+}
+
+
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    min-height: 610px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+/* TEXT */
+
+ul{
+    list-style: none;
+}
+
+li{
+    color: var(--primary-color);
+    
+}
+
+.header-content>h1{
+    color: var(--primary-color);
+    font-size: 2.8rem;
+    padding-bottom: 40px;
+}
+
+.header-content>p{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    line-height: 30px;
+    
+
+}
+
+.header-content{
+    text-align: center;
+    width: 800px;
+}
+
+
